@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Template CV modern untuk lulusan atau siswa Teknik Komputer dan Jaringan (TKJ).">
+  <title>CV - Nama Lengkap | Teknik Komputer dan Jaringan</title>
+  <style> .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #00bfff;
+    margin: auto;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+    :root {
+      --navy: #10243e;
+      --blue: #1677d2;
+      --cyan: #27c2d1;
+      --ink: #263449;
+      --muted: #66758a;
+      --paper: #ffffff;
+      --bg: #eaf0f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 32px 14px;
+      background: radial-gradient(circle at top left, #d8f4f6, transparent 35%), var(--bg);
+      color: var(--ink);
+      font: 15px/1.6 "Segoe UI", Arial, sans-serif;
+    }
+    .cv {
+      width: min(960px, 100%); margin: auto; background: var(--paper);
+      display: grid; grid-template-columns: 310px 1fr;
+      border-radius: 18px; overflow: hidden;
+      box-shadow: 0 18px 55px rgba(16,36,62,.16);
+    }
+    aside {
+      background: linear-gradient(160deg, var(--navy), #173e65 70%, #126a82);
+      color: #fff; padding: 38px 28px;
+    }
+    .avatar {
+      width: 112px; height: 112px; border-radius: 50%;
+      border: 4px solid rgba(255,255,255,.8); margin: 0 auto 18px;
+      display: grid; place-items: center; font-size: 42px;
+      background: rgba(255,255,255,.12);
+    }
+    .name { text-align: center; font-size: 25px; line-height: 1.2; margin: 0; }
+    .role { text-align: center; color: #8eeaf0; font-weight: 700; margin: 10px 0 28px; letter-spacing: .7px; }
+    h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 1.7px; margin: 27px 0 12px; }
+    aside h2 { color: #8eeaf0; }
+    .contact p { margin: 8px 0; overflow-wrap: anywhere; }
+    .contact b { color: #8eeaf0; display: inline-block; width: 22px; }
+    .skill { margin: 13px 0; }
+    .skill-label { display: flex; justify-content: space-between; font-size: 13px; }
+    .track { height: 7px; border-radius: 20px; background: rgba(255,255,255,.2); margin-top: 6px; overflow: hidden; }
+    .fill { height: 100%; border-radius: inherit; background: linear-gradient(90deg, var(--cyan), #8eeaf0); }
+    main { padding: 42px 42px 38px; }
+    .intro {
+      padding: 18px 20px; border-left: 4px solid var(--cyan);
+      background: #f1f8fc; border-radius: 0 12px 12px 0; margin-bottom: 25px;
+    }
+    main h2 { color: var(--blue); margin-top: 25px; }
+    .item { margin: 0 0 18px; }
+    .item h3 { margin: 0; font-size: 17px; color: var(--navy); }
+    .meta { color: var(--muted); font-size: 13px; font-weight: 600; margin: 2px 0 7px; }
+    ul { margin: 7px 0 0; padding-left: 19px; }
+    li { margin: 4px 0; }
+    .tag {
+      display: inline-block; background: #e8f6fb; color: #12618a;
+      border: 1px solid #d1edf4; padding: 5px 10px; border-radius: 20px;
+      margin: 4px 4px 0 0; font-size: 12px; font-weight: 700;
+    }
+    .note { color: var(--muted); font-size: 12px; margin-top: 24px; }
+    @media (max-width: 700px) {
+      body { padding: 12px 8px; }
+      .cv { grid-template-columns: 1fr; }
+      aside, main { padding: 28px 24px; }
+      main { padding-top: 12px; }
+    }
+    @media print {
+      body { padding: 0; background: #fff; }
+      .cv { width: 100%; box-shadow: none; border-radius: 0; }
+      aside { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .intro, .tag { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv">
+    <aside>
+      <div class="avatar">
+    <img src="fatoni.png" alt="Foto Profil">
+        
+</div>
+      
+      <h1 class="name">RIZQULLAH FATHONI</h1>
+      <div class="role">TEKNIK KOMPUTER &amp; JARINGAN</div>
+
+      <h2>Kontak</h2>
+      <div class="contact">
+        <p><b>☎</b> 0813-6044-7983</p>
+        <p><b>✉</b> fatoninasution846@gmail.com</p>
+        <p><b>⌖</b> Kotasiantar,Kec.Panyabungan,Kab.Mandailing natal</p>     
+      </div>
+
+      <h2>Keahlian Teknis</h2>
+      <div class="skill">
+        <div class="skill-label"><span>Instalasi Windows</span><span>85%</span></div>
+        <div class="track"><div class="fill" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label"><span>Jaringan LAN &amp; WLAN</span><span>80%</span></div>
+        <div class="track"><div class="fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label"><span>MikroTik dasar</span><span>75%</span></div>
+        <div class="track"><div class="fill" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label"><span>Crimping kabel UTP</span><span>90%</span></div>
+        <div class="track"><div class="fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-label"><span>Troubleshooting PC</span><span>80%</span></div>
+        <div class="track"><div class="fill" style="width:80%"></div></div>
+      </div>
+
+      <h2>Soft Skills</h2>
+      <p>Disiplin • Teliti • Komunikatif • Kerja sama tim • Mau belajar</p>
+
+      <h2>Bahasa</h2>
+      <p>Bahasa Indonesia — Aktif<br>Bahasa Inggris — Dasar</p>
+    </aside>
+
+    <main>
+      <div class="intro">
+        Saya siswa/lulusan Teknik Komputer dan Jaringan (TKJ) yang memiliki minat
+        pada bidang IT Support, administrasi jaringan, dan perawatan komputer.
+        Terbiasa belajar secara praktik, mampu bekerja dalam tim, serta memiliki
+        semangat tinggi untuk mengembangkan keterampilan di dunia teknologi.
+      </div>
+
+      <h2>Data Pendidikan</h2>
+      <div class="item">
+        <h3>SMKN2 PANYABUNGAN</h3>
+        <div class="meta">Teknik Komputer dan Jaringan (TKJ) | 2023–2026</div>
+        <p>Isi dengan prestasi, kegiatan, atau mata pelajaran yang relevan.</p>
+      </div>
+
+      <h2>Pengalaman Praktik / PKL</h2>
+      <div class="item">
+        <h3>Nama Perusahaan / Tempat PKL</h3>
+        <div class="meta">Siswa Praktik Kerja Lapangan | Bulan 2025 – Bulan 2025</div>
+        <ul>
+          <li>Membantu instalasi sistem operasi dan aplikasi komputer.</li>
+          <li>Melakukan pengecekan perangkat keras serta troubleshooting dasar.</li>
+          <li>Membantu pemasangan kabel LAN dan pengecekan koneksi jaringan.</li>
+        </ul>
+      </div>
+
+      <h2>Proyek TKJ</h2>
+      <div class="item">
+        <h3>Membangun Jaringan LAN Sederhana</h3>
+        <div class="meta">Proyek sekolah / praktik mandiri</div>
+        <ul>
+          <li>Membuat kabel UTP dengan susunan straight dan crossover.</li>
+          <li>Mengatur alamat IP dan menguji konektivitas antarperangkat.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Konfigurasi Router MikroTik</h3>
+        <div class="meta">Proyek sekolah / praktik mandiri</div>
+        <ul>
+          <li>Melakukan konfigurasi dasar IP address, DHCP, dan hotspot.</li>
+          <li>Menguji koneksi internet serta melakukan troubleshooting sederhana.</li>
+        </ul>
+      </div>
+
+      <h2>Sertifikat &amp; Pelatihan</h2>
+      <div class="item">
+        <ul>
+          <li>Nama sertifikat/pelatihan — Tahun</li>
+          <li>Contoh: Pelatihan Dasar Jaringan Komputer — Tahun</li>
+        </ul>
+      </div>
+
+      <h2>Keahlian Pendukung</h2>
+      <span class="tag">Microsoft Office</span>
+      <span class="tag">Hardware PC</span>
+      <span class="tag">TCP/IP</span>
+      <span class="tag">LAN &amp; WLAN</span>
+      <span class="tag">MikroTik</span>
+      <span class="tag">Windows</span>
+
+  </div>
+</body>
+</html>
